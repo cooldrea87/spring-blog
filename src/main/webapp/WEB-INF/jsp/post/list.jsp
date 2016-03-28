@@ -16,7 +16,7 @@
 					<div class="site-heading">
 						<h1>Spring Blog</h1>
 						<hr class="small">
-						<span class="subheading">Spring Blog form Millky</span>
+						<span class="subheading">Spring Blog form choi</span>
 					</div>
 				</div>
 			</div>
@@ -56,12 +56,12 @@
 				<ul class="pager">
 					<c:if test="${!postPage.first}">
 					<li class="previous">
-						<a href="?page=${postPage.number-1}">&larr; Newer Posts</a>
+						<a href="?page=${postPage.number-1}">&larr; 다음 </a>
 					</li>
 					</c:if>
 					<c:if test="${!postPage.last}">
 					<li class="next">
-						<a href="?page=${postPage.number+1}">Older Posts &rarr;</a>
+						<a href="?page=${postPage.number+1}">이전 &rarr;</a>
 					</li>
 					</c:if>
 				</ul>

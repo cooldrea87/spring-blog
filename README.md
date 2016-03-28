@@ -1,7 +1,5 @@
-# SpringBlog from Millky
+# SpringBlog from choi
 ### Spring Boot base Open-source Blog
-
-밀키(millky.com)에서 블로그 부분을 뽑아(?) 오픈소스 합니다.
 
 ```
 SpringBoot + Spring Data JPA + Spring Social + ...
@@ -56,7 +54,6 @@ mvn spring-boot:run
 #### Package Structure
 
 ```
-com.millky.blog
     └── application
         └── aop
         └── configuration
