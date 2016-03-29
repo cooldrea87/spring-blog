@@ -8,7 +8,7 @@ import com.millky.blog.domain.model.entity.Post;
 
 public interface PostDao extends JpaRepository<Post, Integer> {
 
-	public Page<Post> findByCategoryId(int categoryId, Pageable pageable);
-
+	public Page<Post> findByCategoryId(int categoryId, Pageable p);
+	//public Page<Post> findByCategoryId(int categoryId, Pageable pageable); 정상 
 	public Page<Post> findByPostTagListTagName(String tagName, Pageable pageable);
 }
