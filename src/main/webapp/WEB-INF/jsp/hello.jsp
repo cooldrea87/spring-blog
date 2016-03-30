@@ -5,7 +5,7 @@
 <html lang="ko">
 <head>
 <%@ include file="/WEB-INF/jspf/head.jspf"%>
-<title>Hello Millky</title>
+<title>Hello choi</title>
 </head>
 <body>
 <a href="https://github.com/origoni/Spring-Blog"><img style="position: absolute; top: 0; right: 0; border: 0; z-index: 2;" src="https://camo.githubusercontent.com/652c5b9acfaddf3a9c326fa6bde407b87f7be0f4/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6f72616e67655f6666373630302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png"></a>
@@ -21,11 +21,8 @@
 		</a>
 
 		<article>
-			<h1>SpringBlog from Millky</h1>
-			<p>
-				밀키(millky.com)에서 블로그 부분을 뽑아(?) 오픈소스 합니다. <a href="http://millky.com/@origoni">http://millky.com/@origoni</a><br>
-				단지 코드만 공개한는 것이 아니라. 개발 과정을 같이 공개하려 합니다.<br> 문의사항은 밀키, 페이스북, 깃헙 등 모두 열려 있습니다 ^^;
-			</p>
+			<h1>SpringBlog from Choi</h1>
+
 
 			<h3>관련 링크</h3>
 			<ul>
