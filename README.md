@@ -1,6 +1,6 @@
 # SpringBlog from choi
 ### Spring Boot base Open-source Blog
-test
+gitlab
 
 ```
 SpringBoot + Spring Data JPA + Spring Social + ...
