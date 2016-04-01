@@ -19,7 +19,8 @@ public class UserSessionInterceptor extends HandlerInterceptorAdapter {
 		this.connectionRepository = connectionRepository;
 	}
 
-	public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
+	public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)
+			throws Exception {
 
 		Connection<Facebook> connection;
 
@@ -32,7 +33,8 @@ public class UserSessionInterceptor extends HandlerInterceptorAdapter {
 		if (connection != null) {
 			ConnectionData data = connection.createData();
 
-			request.setAttribute("_USER", new UserSession(data.getProviderUserId(), data.getImageUrl(), data.getDisplayName()));
+			request.setAttribute("_USER",
+					new UserSession(data.getProviderUserId(), data.getImageUrl(), data.getDisplayName()));
 		}
 
 		return true;
